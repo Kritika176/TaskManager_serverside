@@ -4,7 +4,7 @@ To get you started you can simply clone the repository:https://github.com/Kritik
 git clone 
 and install the dependencies
 
-git install
+npm install
 # Prerequisites
 You need git to clone the repository. You can get git from http://git-scm.com/.
 
