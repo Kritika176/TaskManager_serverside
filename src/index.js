@@ -15,7 +15,7 @@ app.use("/login", loginController);
 app.use("/task", taskController);
 const connect = async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI);
+    await mongoose.connect("mongodb+srv://kritika176:kritika176@cluster0.7rdip.mongodb.net/Eccom");
   } catch (err) {
     console.log(err.message);
   }
